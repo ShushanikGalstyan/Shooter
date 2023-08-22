@@ -81,7 +81,17 @@ public:
 
 	void OnCreateSessionComplete(FName SessionName, bool bIsSuccessful);
 	
+	void OnFindSessionComplete(bool bIsSuccessful);
+	
+	UFUNCTION(BlueprintCallable)
+	void JoinGameSession();
+
 private:
+	
 	FOnCreateSessionCompleteDelegate CreateSessionCompleteDelegate;
+
+	FOnFindSessionsCompleteDelegate FindSessionsCompleteDelegate;
+
+	TSharedPtr<FOnlineSessionSearch> SessionSearch;
 };
 
