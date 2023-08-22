@@ -1,0 +1,44 @@
+Binaries
+DerivedDataCache
+Intermediate
+Saved
+JSON
+.vscode
+.vs
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+!OWSInstanceLauncher/*/**
+.idea
+DDC
+DDCGlobal
+hooks
+lfs
+Build
+
+# Houdini
+*bak*.hip
+*bak*.hda
+
+# Megascans
+# Content/MSPresets
+# Content/Megascans
+
+.vsconfig
+Platforms/HoloLens/*/**
+.sentry-native
+
+Plugins/web3Unreal/Intermediate/
+Plugins/web3Unreal/Binaries/
+
+Plugins/MetaHuman/Intermediate/
+Plugins/MetaHuman/Binaries/
+
+Plugins/MongoDBDriver/Intermediate/
+Plugins/MongoDBDriver/Binaries/
+
